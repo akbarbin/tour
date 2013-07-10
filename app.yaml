@@ -1,4 +1,3 @@
-service: tour
 runtime: go111
 
 env_variables:

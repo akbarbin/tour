@@ -1,41 +1,38 @@
 # Go Tour
 
-A Tour of Go is an introduction to the Go programming language. Visit
-https://tour.golang.org to start the tour.
+Tur Bahasa Pemrograman Go adalah sebuah pengenalan dari bahasa pemrograman Go.
+Kunjungi situs https://go-tour-id2.appspot.com untuk memulai tur.
 
-## Download/Install
+## Unduh/Pasang
 
-To install the tour from source, first
-[set up a workspace](https://golang.org/doc/code.html) and then run:
+Untuk memasang tur dari sumber kode, pertama
+[siapkan sebuah _workspace_](https://golang.org/doc/code.html)
+dan kemudian jalankan:
 
-	$ go get golang.org/x/tour
+    $ go get golang.org/x/tour
 
-This will place a `tour` binary in your workspace's `bin` directory, which
-can be run offline.
+Perintah tersebut akan membuat program `tour` dalam direktori `bin` di
+_workspace_ anda, yang dapat dijalankan di lokal.
 
-## Contributing
+## Berkontribusi
 
-Contributions should follow the same procedure as for the Go project:
+Kontribusi sebaiknya mengikuti prosedur yang sama dengan proyek Go:
 https://golang.org/doc/contribute.html
 
-To run the tour server locally:
-
+Untuk menjalankan server tur di lokal:
 ```sh
 dev_appserver.py app.yaml
 ```
 
-and then visit [http://localhost:8080/](http://localhost:8080) in your browser.
+kemudian buka [http://localhost:8080/](http://localhost:8080) di peramban web
+anda.
 
-## Report Issues / Send Patches
+## Pelaporan Isu / Pengiriman patch
 
-This repository uses Gerrit for code changes. To learn how to submit changes to
-this repository, see https://golang.org/doc/contribute.html.
+Repository ini menggunakan Github untuk perubahan kode, yang bisa diakses
+lewat https://github.com/golang-id/go-tour-id/issues.
 
-The main issue tracker for the tour is located at
-https://github.com/golang/go/issues. Prefix your issue with "tour:" in the
-subject line, so it is easy to find.
+## Lisensi
 
-## License
-
-Unless otherwise noted, the go-tour source files are distributed
-under the BSD-style license found in the LICENSE file.
+Kecuali bila dicantumkan, berkas sumber kode go-tour didistribusikan di bawah
+lisensi model BSD yang bisa ditemukan pada berkas LICENSE.
